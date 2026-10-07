@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop | Cora Hornby Jewelry</title>
+  <meta name="description" content="Explore Cora Hornby's handcrafted earrings, necklaces, bracelets, rings, sets, and purse charms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <div class="announce">Handcrafted on the coast of Maine · Traveling the world for inspiration and materials</div>
+    <div class="nav-bar">
+      <a class="logo" href="index.html">
+        <span class="logo-name">Cora Hornby</span>
+        <span class="logo-sub">Jewelry &amp; Design</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-panel">
+        <nav class="nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="travel.html">Travel</a>
+          <a href="collections.html">Collections</a>
+          <a href="shop.html" aria-current="page">Shop</a>
+          <a href="about.html">Story</a>
+          <a href="customers.html">Customers</a>
+        </nav>
+        <div class="nav-tools">
+          <button class="search-btn" type="button" aria-expanded="false">Search</button>
+          <a class="btn" href="https://www.etsy.com/shop/CoraHornbyJewelry" target="_blank" rel="noopener">Shop Etsy</a>
+        </div>
+      </div>
+    </div>
+    <div class="search-panel" hidden>
+      <div class="search-inner">
+        <label class="eyebrow" for="search-input">Search the collection</label>
+        <input id="search-input" type="search" placeholder="Try jade, citrine, bracelet, pearl…">
+        <div id="search-results" class="search-results"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap-wide page-hero">
+      <p class="eyebrow">All jewelry</p>
+      <h1>Discover Something Unexpected</h1>
+      <p class="lede">Explore Cora's collection of handcrafted jewelry, from colorful stone earrings and sculptural necklaces to mixed-metal bracelets, rings, sets, and purse charms.</p>
+      <p class="hero-note">Handcrafted in Maine · Inspired by the World</p>
+      <div class="filters" role="toolbar" aria-label="Filter by category">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="earrings" aria-pressed="false">Earrings</button>
+        <button type="button" data-filter="necklaces" aria-pressed="false">Necklaces</button>
+        <button type="button" data-filter="bracelets" aria-pressed="false">Bracelets</button>
+        <button type="button" data-filter="rings" aria-pressed="false">Rings</button>
+        <button type="button" data-filter="charms" aria-pressed="false">Bag Charms</button>
+        <button type="button" data-filter="sets" aria-pressed="false">Sets</button>
+      </div>
+    </div>
+
+    <div class="wrap-wide">
+      <section class="shop-group" id="earrings">
+        <p class="eyebrow">Earrings</p>
+        <h2>Earrings With Personality</h2>
+        <p class="group-intro">Explore handcrafted earrings featuring jade, pearls, crystals, brass, fossils, and other distinctive materials.</p>
+        <div class="product-grid">
+          <article class="product-card" id="jade-three-stone" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Jade%20Three-Stone%20Earrings" target="_blank" rel="noopener"><img src="images/products/guatemalan-jade-three-stone-earrings.jpg" alt="Guatemalan jade three-stone earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Guatemalan Jade Three-Stone Earrings</h3><div class="price">$40</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Jade%20Three-Stone%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="jade-pewter" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Jade%20Earrings%20Pewter" target="_blank" rel="noopener"><img src="images/products/guatemalan-jade-earrings.jpg" alt="Guatemalan jade earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Guatemalan Jade Earrings in Hammered Pewter</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Jade%20Earrings%20Pewter" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="tigers-eye" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Spiral%20Tiger%27s%20Eye%20Earrings" target="_blank" rel="noopener"><img src="images/products/spiral-tigers-eye-earrings.jpg" alt="Spiral tiger's eye earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Spiral Tiger's Eye Earrings</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Spiral%20Tiger%27s%20Eye%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="bird-nest" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Bird%20and%20Nest%20Earrings" target="_blank" rel="noopener"><img src="images/products/bird-and-nest-earrings.jpg" alt="Bird and nest earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Bird and Nest Earrings</h3><div class="price">$30</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Bird%20and%20Nest%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="brass-gear" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Brass%20Gear%20Earrings" target="_blank" rel="noopener"><img src="images/products/brass-gear-earrings-mixed-metal-statement-jewelry.jpg" alt="Brass gear earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Handmade Brass Gear Earrings</h3><div class="price">$24</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Brass%20Gear%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="egyptian" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Brass%20Egyptian%20Dangle%20Earrings" target="_blank" rel="noopener"><img src="images/products/brass-egyptian-dangle-earrings.jpg" alt="Brass Egyptian dangle earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Brass Egyptian Dangle Earrings</h3><div class="price">$18</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Brass%20Egyptian%20Dangle%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="fossil" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Fossil%20Earrings" target="_blank" rel="noopener"><img src="images/products/guatemalan-fossil-and-pearl-earrings.jpg" alt="Guatemalan fossil earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Guatemalan Fossil Earrings</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Fossil%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="architectural-earrings" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Hammered%20Brass%20Architectural%20Earrings" target="_blank" rel="noopener"><img src="images/products/hammered-brass-architectural-earrings-geometric-dangles.jpg" alt="Hammered brass architectural earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Hammered Brass Architectural Earrings</h3><div class="price">$24</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Hammered%20Brass%20Architectural%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="jade-shell" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Jade%20and%20Shell%20Earring" target="_blank" rel="noopener"><img src="images/products/chinese-jade-and-shell-earrings.jpg" alt="Jade and shell earring"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Guatemalan Jade and Shell Earring</h3><div class="price">$24</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Guatemalan%20Jade%20and%20Shell%20Earring" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="lava-jasper-earrings" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Lava%20Bead%20and%20African%20Jasper%20Earrings" target="_blank" rel="noopener"><img src="images/products/lava-bead-and-african-jasper-earrings.jpg" alt="Lava bead and African jasper earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Lava Bead and African Jasper Earrings</h3><div class="price">$26</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Lava%20Bead%20and%20African%20Jasper%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="pyrite" data-cat="earrings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Pyrite%20and%20Crystal%20Earrings" target="_blank" rel="noopener"><img src="images/products/pyrite-and-crystal-earrings.jpg" alt="Pyrite and crystal earrings"></a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Pyrite and Crystal Earrings</h3><div class="price">$30</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Pyrite%20and%20Crystal%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="birdcage" data-cat="earrings">
+            <a class="product-photo pending" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Sterling%20Silver%20Birdcage%20Earrings" target="_blank" rel="noopener">View on Etsy</a>
+            <div class="product-meta"><span class="product-cat">Earrings</span><h3>Sterling Silver Birdcage Earrings</h3><div class="price">$24</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Sterling%20Silver%20Birdcage%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-group" id="necklaces">
+        <p class="eyebrow">Necklaces</p>
+        <h2>Necklaces With a Story</h2>
+        <p class="group-intro">From raw stones and jade to leather and brass, discover necklaces designed with unusual materials and individual character.</p>
+        <div class="product-grid">
+          <article class="product-card" id="jade-drop" data-cat="necklaces">
+            <a class="product-photo cover" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Architectural%20Jade%20Drop%20Necklace" target="_blank" rel="noopener"><img src="images/lifestyle/jade-circle.jpg" alt="Jade drop"></a>
+            <div class="product-meta"><span class="product-cat">Necklaces</span><h3>Architectural Jade Drop Necklace</h3><div class="price">$40</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Architectural%20Jade%20Drop%20Necklace" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="citrine-necklace" data-cat="necklaces">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Raw%20Citrine%20Necklace" target="_blank" rel="noopener"><img src="images/products/citrine-necklace.jpg" alt="Raw citrine necklace"></a>
+            <div class="product-meta"><span class="product-cat">Necklaces</span><h3>Raw Citrine Necklace and Earrings</h3><div class="price">$75</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Raw%20Citrine%20Necklace" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="cleo" data-cat="necklaces">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=The%20Cleo%20Brass%20Necklace" target="_blank" rel="noopener"><img src="images/products/the-cleo-brass-necklace.jpg" alt="The Cleo brass necklace"></a>
+            <div class="product-meta"><span class="product-cat">Necklaces</span><h3>The Cleo Brass Necklace</h3><div class="price">$15</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=The%20Cleo%20Brass%20Necklace" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="dainty-crystal" data-cat="necklaces">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Dainty%20Crystal%20Necklace" target="_blank" rel="noopener"><img src="images/products/delicate-crystal-necklace.jpg" alt="Dainty crystal necklace"></a>
+            <div class="product-meta"><span class="product-cat">Necklaces</span><h3>Dainty Crystal Necklace</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Dainty%20Crystal%20Necklace" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="handshake" data-cat="necklaces">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Handshake%20Leather%20Necklace" target="_blank" rel="noopener"><img src="images/products/medallion-handshake-leather-necklace.jpg" alt="Handshake leather necklace"></a>
+            <div class="product-meta"><span class="product-cat">Necklaces</span><h3>Handshake Leather Necklace</h3><div class="price">$40</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Handshake%20Leather%20Necklace" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="friendship" data-cat="necklaces">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Leather%20Friendship%20Necklace" target="_blank" rel="noopener"><img src="images/products/leather-friendship-necklace-interlocking-magnet-hands-clasp.jpg" alt="Leather friendship necklace"></a>
+            <div class="product-meta"><span class="product-cat">Necklaces</span><h3>Leather Friendship Necklace</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Leather%20Friendship%20Necklace" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-group" id="bracelets">
+        <p class="eyebrow">Bracelets</p>
+        <h2>Texture, Color &amp; Character</h2>
+        <p class="group-intro">Discover bracelets made with natural stones, beads, leather, and mixed metals.</p>
+        <div class="product-grid">
+          <article class="product-card" id="paracord" data-cat="bracelets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Men%27s%20Paracord%20Bracelets" target="_blank" rel="noopener"><img src="images/products/men-s-paracord-bracelets.jpg" alt="Paracord bracelets"></a>
+            <div class="product-meta"><span class="product-cat">Bracelets</span><h3>Men's Paracord Bracelets</h3><div class="price">$19</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Men%27s%20Paracord%20Bracelets" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="lava-bracelet" data-cat="bracelets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Lava%20Bead%20Bracelet" target="_blank" rel="noopener"><img src="images/products/lava-bead-bracelet.jpg" alt="Lava bead bracelet"></a>
+            <div class="product-meta"><span class="product-cat">Bracelets</span><h3>Lava Bead Bracelet</h3><div class="price">$24</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Lava%20Bead%20Bracelet" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="zebra" data-cat="bracelets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=African%20Zebra%20Jasper%20Bracelet" target="_blank" rel="noopener"><img src="images/products/african-zebra-jasper-bracelet.jpg" alt="African zebra jasper bracelet"></a>
+            <div class="product-meta"><span class="product-cat">Bracelets</span><h3>African Zebra Jasper Bracelet</h3><div class="price">$22</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=African%20Zebra%20Jasper%20Bracelet" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="bangles" data-cat="bracelets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Mixed%20Metal%20Hammered%20Bangles" target="_blank" rel="noopener"><img src="images/products/mixed-metal-hammered-bangles.jpg" alt="Mixed metal hammered bangles"></a>
+            <div class="product-meta"><span class="product-cat">Bracelets</span><h3>Mixed Metal Hammered Bangles</h3><div class="price">$15</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Mixed%20Metal%20Hammered%20Bangles" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-group" id="sets">
+        <p class="eyebrow">Sets</p>
+        <h2>Jewelry Designed to Wear Together</h2>
+        <p class="group-intro">Make styling simple with coordinated necklaces and earrings featuring beautiful natural stones and distinctive details.</p>
+        <div class="product-grid">
+          <article class="product-card" id="aquamarine" data-cat="sets">
+            <a class="product-photo cover" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Aquamarine%20Necklace%20and%20Earrings%20Set" target="_blank" rel="noopener"><img src="images/products/aquamarine-necklace-and-earrings-set.jpg" alt="Aquamarine necklace and earrings set"></a>
+            <div class="product-meta"><span class="product-cat">Sets</span><h3>Aquamarine Necklace and Earrings Set</h3><div class="price">$40</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Aquamarine%20Necklace%20and%20Earrings%20Set" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="crystal-set" data-cat="sets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Crystal%20Drop%20Necklace%20Set" target="_blank" rel="noopener"><img src="images/products/tri-strand-crystal-illusion-necklace.jpg" alt="Crystal necklace"></a>
+            <div class="product-meta"><span class="product-cat">Sets</span><h3>Crystal Drop Necklace Set</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Crystal%20Drop%20Necklace%20Set" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="lapis" data-cat="sets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Lapis%20Lazuli%20Necklace%20Set" target="_blank" rel="noopener"><img src="images/products/lapis-lazuli-necklace-set.jpg" alt="Lapis lazuli necklace set"></a>
+            <div class="product-meta"><span class="product-cat">Sets</span><h3>Lapis Lazuli Necklace Set</h3><div class="price">$60</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Lapis%20Lazuli%20Necklace%20Set" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+          <article class="product-card" id="citrine" data-cat="sets">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Raw%20Citrine%20Necklace%20and%20Earrings" target="_blank" rel="noopener"><img src="images/products/citrine-necklace.jpg" alt="Raw citrine necklace and earrings"></a>
+            <div class="product-meta"><span class="product-cat">Sets</span><h3>Raw Citrine Necklace and Earrings</h3><div class="price">$75</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Raw%20Citrine%20Necklace%20and%20Earrings" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-group" id="rings">
+        <p class="eyebrow">Rings</p>
+        <h2>Rings With Individual Character</h2>
+        <p class="group-intro">Discover handcrafted rings featuring distinctive stones and simple, artistic forms.</p>
+        <div class="product-grid">
+          <article class="product-card" id="pearl-ring" data-cat="rings">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Crafted%20Coin%20Pearl%20Ring" target="_blank" rel="noopener"><img src="images/products/crafted-coin-pearl-ring.jpg" alt="Crafted coin pearl ring"></a>
+            <div class="product-meta"><span class="product-cat">Rings</span><h3>Crafted Coin Pearl Ring</h3><div class="price">$30</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Crafted%20Coin%20Pearl%20Ring" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="shop-group" id="charms">
+        <p class="eyebrow">Bag charms</p>
+        <h2>Add a Little Personality</h2>
+        <p class="group-intro">Small details can make a favorite bag feel completely your own. Explore handcrafted purse charms designed to add color and character to your everyday accessories.</p>
+        <div class="product-grid">
+          <article class="product-card" id="purse-charm" data-cat="charms">
+            <a class="product-photo" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Red%20White%20Chic%20Purse%20Charm" target="_blank" rel="noopener"><img src="images/products/red-white-chic-purse-charm.jpg" alt="Red, white, and chic purse charm"></a>
+            <div class="product-meta"><span class="product-cat">Bag Charms</span><h3>Red, White &amp; Chic Purse Charm</h3><div class="price">$28</div><a class="text-link" href="https://www.etsy.com/shop/CoraHornbyJewelry?search_query=Red%20White%20Chic%20Purse%20Charm" target="_blank" rel="noopener">View on Etsy</a></div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap-wide footer-grid">
+      <div>
+        <div class="logo-name">Cora Hornby</div>
+        <p>Handcrafted on the coast of Maine. Traveling the world for inspiration and materials.</p>
+        <p>Cape Elizabeth, Maine · USA</p>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <ul>
+          <li><a href="shop.html#earrings">Earrings</a></li>
+          <li><a href="shop.html#necklaces">Necklaces</a></li>
+          <li><a href="shop.html#bracelets">Bracelets</a></li>
+          <li><a href="shop.html#rings">Rings</a></li>
+          <li><a href="shop.html#charms">Bag Charms</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="travel.html">Travel</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Information</h3>
+        <ul>
+          <li><a href="about.html">Cora's Story</a></li>
+          <li><a href="customers.html">Cora's Customers</a></li>
+          <li><a href="shipping.html">Packaging &amp; Shipping</a></li>
+          <li><a href="guarantees.html">Guarantees</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow</h3>
+        <ul>
+          <li><a href="https://www.etsy.com/shop/CoraHornbyJewelry" target="_blank" rel="noopener">Etsy</a></li>
+          <li><a href="https://www.facebook.com/corahornbyjewelry" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="tel:5184698981">518-469-8981</a></li>
+          <li><a href="mailto:corahornby@corahornby.com">corahornby@corahornby.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap-wide footer-base">
+      <span>Design concept for Cora Hornby Jewelry</span>
+      <span>Purchases are completed on Etsy</span>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
